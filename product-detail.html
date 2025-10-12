@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Product-Detail</title>
+    <link rel="stylesheet" href="assets/common.css" />
+    <link rel="stylesheet" href="assets/product-detail.css" />
+  </head>
+  <body>
+    <div class="container">
+      <iframe src="layout/header.html" class="header-iframe"></iframe>
+
+      <section class="card">
+        <h1>Chi tiết sản phẩm</h1>
+        <div style="display: flex; gap: 18px; flex-wrap: wrap">
+          <div style="flex: 1; min-width: 240px">
+            <div
+              style="
+                background: #f3f7ff;
+                height: 220px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              Ảnh lớn
+            </div>
+          </div>
+          <div style="flex: 1; min-width: 240px">
+            <h2>SP-001 — Tên sản phẩm</h2>
+            <p class="muted">Giá: 1.000.000₫</p>
+            <p>
+              Mô tả chi tiết: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Thông số kỹ thuật, tính năng, và nút thêm vào giỏ hàng (nút
+              non-functional vì không dùng JS).
+            </p>
+            <p style="margin-top: 12px">
+              <a class="btn" href="contact.html">Yêu cầu báo giá</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <iframe src="layout/footer.html" class="footer-iframe"></iframe>
+    </div>
+  </body>
+</html>

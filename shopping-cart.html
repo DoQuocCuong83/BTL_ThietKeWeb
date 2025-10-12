@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="assets/common.css" />
+    <link rel="stylesheet" href="assets/shopping-cart.css" />
+  </head>
+  <body>
+    <div class="container">
+      <iframe src="layout/header.html" class="header-iframe"></iframe>
+
+      <section class="card">
+        <h1>Giỏ hàng của bạn</h1>
+        <p class="muted">Danh sách sản phẩm đã thêm (giả lập).</p>
+        <table class="cart" aria-label="Giỏ hàng">
+          <thead>
+            <tr>
+              <th>Ảnh</th>
+              <th>Tên sản phẩm</th>
+              <th>Số lượng</th>
+              <th>Giá</th>
+              <th>Tạm tính</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="assets/logo.svg" alt="" /></td>
+              <td>SP-001</td>
+              <td>1</td>
+              <td>1.000.000₫</td>
+              <td>1.000.000₫</td>
+            </tr>
+            <tr>
+              <td><img src="assets/logo.svg" alt="" /></td>
+              <td>SP-002</td>
+              <td>2</td>
+              <td>500.000₫</td>
+              <td>1.000.000₫</td>
+            </tr>
+            <tr>
+              <td><img src="assets/logo.svg" alt="" /></td>
+              <td>SP-003</td>
+              <td>1</td>
+              <td>750.000₫</td>
+              <td>750.000₫</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="total">Tổng cộng: 2.750.000₫</p>
+        <p style="text-align: right"><a class="btn" href="#">Thanh toán</a></p>
+      </section>
+
+      <iframe src="layout/footer.html" class="footer-iframe"></iframe>
+    </div>
+  </body>
+</html>

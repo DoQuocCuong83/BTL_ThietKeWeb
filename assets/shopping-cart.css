@@ -1,0 +1,6 @@
+/* shopping-cart.css - minimal */
+.total {
+  font-weight: 700;
+  margin-top: 12px;
+  text-align: right;
+}
