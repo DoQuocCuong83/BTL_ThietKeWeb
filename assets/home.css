@@ -87,9 +87,9 @@
 }
 
 .product-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 12px;
-  flex-wrap: wrap;
 }
 
 .product-card {

@@ -1,49 +1,139 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Product-Detail</title>
-    <link rel="stylesheet" href="assets/common.css" />
-    <link rel="stylesheet" href="assets/product-detail.css" />
-  </head>
-  <body>
-    <div class="container">
-      <iframe src="layout/header.html" class="header-iframe"></iframe>
 
-      <section class="card">
-        <h1>Chi tiết sản phẩm</h1>
-        <div style="display: flex; gap: 18px; flex-wrap: wrap">
-          <div style="flex: 1; min-width: 240px">
-            <div
-              style="
-                background: #f3f7ff;
-                height: 220px;
-                border-radius: 10px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              "
-            >
-              Ảnh lớn
-            </div>
-          </div>
-          <div style="flex: 1; min-width: 240px">
-            <h2>SP-001 — Tên sản phẩm</h2>
-            <p class="muted">Giá: 1.000.000₫</p>
-            <p>
-              Mô tả chi tiết: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Thông số kỹ thuật, tính năng, và nút thêm vào giỏ hàng (nút
-              non-functional vì không dùng JS).
-            </p>
-            <p style="margin-top: 12px">
-              <a class="btn" href="contact.html">Yêu cầu báo giá</a>
-            </p>
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product-Detail</title>
+  <link rel="stylesheet" href="assets/common.css" />
+  <link rel="stylesheet" href="assets/product-detail.css" />
+  <link rel="stylesheet" href="assets/products.css" />
+</head>
+
+<body>
+  <div class="container">
+    <iframe src="layout/header.html" class="header-iframe"></iframe>
+    <section class="card">
+      <h1>Chi tiết sản phẩm</h1>
+      <div style="display: flex; gap: 18px; flex-wrap: wrap">
+        <div style="flex: 1; min-width: 240px">
+          <video src="assets/images/prd-detail.mp4" autoplay loop muted>
         </div>
-      </section>
+        <div style="flex: 1; min-width: 240px">
+          <h2>ASUS Zenbook 14 UM3406KA</h2>
+          <p class="muted">Giá: <b>1.000.000₫</b></p>
+          <p>
+            Ultrabook mỏng nhẹ cao cấp, thiết kế sang trọng, thích hợp cho người thường xuyên di chuyển, làm việc chuyên
+            sâu hoặc cần laptop vừa đẹp vừa mạnh.
+          </p>
+          <p style="margin-top: 12px">
+            <a class="btn" href="contact.html">Yêu cầu báo giá</a>
+          </p>
+        </div>
+      </div>
+      <div class="description-content">
+        ASUS Zenbook 14 UM3406KA, một mẫu laptop rất đáng chú ý với thiết kế hiện đại, cấu hình mạnh và màn hình xuất
+        sắc.
+        <hr />
+        ✅ Thông số kỹ thuật nổi bật<br />
+        CPU: AMD Ryzen™ AI 7 350, 8 nhân – 16 luồng, xung tối đa lên đến ~5.0 GHz. <br />
+        NPU (Deep Learning): AMD XDNA™ NPU lên đến 50 TOPS. <br />
+        RAM: 32 GB LPDDR5X (on-board). <br />
+        Ổ cứng: SSD M.2 NVMe PCIe 4.0 – ví dụ 512 GB. <br />
+        Màn hình: 14,0″ OLED tỉ lệ 16:10, độ phân giải 3K (2880 × 1800), tần số quét 120Hz, thời gian đáp ứng 0,2 ms, độ
+        phủ màu 100% DCI-P3, đạt chứng nhận VESA DisplayHDR True Black 600.
+        <br />
+        Cổng kết nối đa dạng:<br />
+        1× USB Type-A (USB 3.2 Gen 1) <br />
+        1× USB Type-C (USB 3.2 Gen 2) hỗ trợ xuất hình & sạc <br />
+        1× USB Type-C (USB 4.0 Gen 3) hỗ trợ 40 Gbps <br />
+        1× HDMI 2.1 <br />
+        Giắc âm thanh 3.5mm <br />
+        Kết nối không dây: Wi-Fi 6E (802.11ax) 2×2, Bluetooth 5.3. <br />
+        Trọng lượng và độ mỏng: Khoảng 1,2 kg – rất nhẹ so với laptop cấu hình cao.<br />
+        <hr />
+        🎯 Ưu điểm nổi bật
+        <br />
+        Thiết kế sang trọng & di động: Với vỏ nhôm, trọng lượng ~1.2kg, phù hợp khi bạn di chuyển nhiều.
+        <br />
+        Màn hình OLED chất lượng cao: Màu sắc sống động, tần số quét cao, thời gian phản ứng rất nhanh — rất phù hợp cho
+        cả công việc sáng tạo, xem phim hoặc giải trí.
+        <br />
+        Hiệu năng mạnh mẽ: CPU 8 nhân + NPU hỗ trợ AI giúp máy xử lý mượt nhiều tác vụ, kể cả đồ họa nhẹ hoặc đa nhiệm.
+        <br />
+        Kết nối đầy đủ: Dù mỏng nhẹ, nhưng vẫn có cổng USB-A truyền thống + USB-C tốc độ cao + HDMI, giúp thuận tiện
+        hơn.
+        <br />
+        Tương thích tốt với công việc hiện đại: RAM 32GB và SSD tốc độ cao giúp hệ thống phản hồi nhanh, mở nhiều ứng
+        dụng cùng lúc không bị chậm.
+        <hr />
+        ⚠️ Nhược điểm cần lưu ý
+        <br />
+        Card đồ họa tích hợp (AMD Radeon) nên nếu bạn chơi game AAA đồ họa nặng hoặc dựng video 4K chuyên sâu thì sẽ có
+        giới hạn.
+        <br />
+        Mặc dù trọng lượng nhẹ nhưng giá thành có thể cao hơn so với laptop cấu hình tương đương cỡ 1,3-1,4kg.
+        <br />
+        Màn hình chỉ phủ lớp “Glossy” (bóng) nên khi sử dụng ngoài trời có thể hơi chói hơn bản mờ (matte).
+      </div>
+    </section>
+    <section class="card">
+      <h1>Sản phẩm liên quan</h1>
+      <div class="grid" style="margin-top: 12px">
+        <article class="card">
+          <img src="assets/images/prd1.avif" alt="prd" />
+          <h3 class="w-full">ASUS Zenbook 14 UM3406KA</h3>
+          <p class="muted description w-full">
+            Ultrabook mỏng nhẹ cao cấp, thiết kế sang trọng, thích hợp cho
+            người thường xuyên di chuyển, làm việc chuyên sâu hoặc cần laptop
+            vừa đẹp vừa mạnh.
+          </p>
+          <div class="price before-price w-full">700.000₫</div>
+          <div class="price last-price w-full">500.000₫</div>
+          <div class="btn-container">
+            <a class="btn" href="product-detail.html">Chi tiết</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/images/prd2.png" alt="prd" />
+          <h3 class="w-full">MSI Katana 15 B13VEK</h3>
+          <p class="muted description w-full">
+            Laptop gaming hiệu năng cao, màn hình lớn 15‑inch, thích hợp cho
+            chơi game, dựng video hoặc các tác vụ đòi hỏi GPU mạnh.
+          </p>
+          <div class="price w-full">500.000₫</div>
+          <div class="btn-container">
+            <a class="btn" href="product-detail.html">Chi tiết</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/images/prd3.jpg" alt="prd" />
+          <h3 class="w-full">Acer Aspire Go 14 AI AG14‑71M</h3>
+          <p class="muted description w-full">
+            Laptop mỏng nhẹ, dành cho nhu cầu hàng ngày – lướt web, học
+            online, làm việc văn phòng; giá hợp lý.
+          </p>
+          <div class="price w-full">500.000₫</div>
+          <div class="btn-container">
+            <a class="btn" href="product-detail.html">Chi tiết</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/images/prd4.jpg" alt="prd" />
+          <h3 class="w-full">Lenovo IdeaPad Slim 3 14IRH10</h3>
+          <p class="muted description w-full">
+            Mẫu giá tốt dành cho sinh viên hoặc người mới sử dụng, kích thước
+            14‑inch gọn gàng, thiết kế đơn giản nhưng đủ dùng.
+          </p>
+          <div class="price w-full">500.000₫</div>
+          <div class="btn-container">
+            <a class="btn" href="product-detail.html">Chi tiết</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <iframe src="layout/footer.html" class="footer-iframe"></iframe>
+  </div>
+</body>
 
-      <iframe src="layout/footer.html" class="footer-iframe"></iframe>
-    </div>
-  </body>
 </html>

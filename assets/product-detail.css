@@ -1,1 +1,17 @@
 /* product-detail.css - minimal */
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+section:nth-child(2) {
+  margin-bottom: 12px;
+}
+
+.description-content {
+  margin-top: 24px;
+  color: grey;
+  font-size: 16px;
+}

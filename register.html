@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="assets/common.css" />
+    <link rel="stylesheet" href="assets/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <iframe src="layout/header.html" class="header-iframe"></iframe>
+      <section
+        class="card"
+        style="max-width: 420px; margin-left: auto; margin-right: auto"
+      >
+        <h1>Đăng ký</h1>
+        <form class="form" action="#" method="post" novalidate>
+          <input
+            class="input"
+            name="email"
+            placeholder="Email hoặc số điện thoại"
+          />
+          <input
+            class="input"
+            name="password"
+            placeholder="Mật khẩu"
+            type="password"
+          />
+          <input class="input" name="name" placeholder="Họ và tên" />
+          <input class="input" name="address" placeholder="Địa chỉ" />
+          <button class="btn" type="button">Đăng ký</button>
+          <p style="margin-top: 8px">
+            <a href="login.html">Đăng nhập</a>
+          </p>
+        </form>
+      </section>
+      <iframe src="layout/footer.html" class="footer-iframe"></iframe>
+    </div>
+  </body>
+</html>

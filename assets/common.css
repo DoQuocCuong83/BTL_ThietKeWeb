@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 :root {
-  --bg: #f7f8fb;
+  /* --bg: #f7f8fb; */
+  --bg: #939dbd;
   --card: #ffffff;
   --accent: #0066cc;
   --muted: #666666;
@@ -28,6 +29,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {
@@ -260,4 +265,22 @@ table.cart {
   .footer-iframe {
     height: 502px;
   }
+}
+
+.w-full {
+  width: 100%;
+}
+
+select {
+  width: 200px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+option {
+  padding: 10px;
 }

@@ -1,1 +1,6 @@
 /* login.css - minimal */
+
+.group-link {
+  display: flex;
+  justify-content: space-between;
+}

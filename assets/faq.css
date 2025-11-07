@@ -1,1 +1,41 @@
 /* faq.css - minimal */
+
+.collapse {
+  border: solid 1px var(--muted);
+  border-radius: var(--radius);
+  padding: 0px 12px;
+  margin-bottom: 12px;
+}
+
+.collapse .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapse .title span::after {
+  content: "+";
+  font-size: 20px;
+}
+
+.collapse:hover .title span::after {
+  content: "-";
+}
+
+.collapse .muted {
+  max-height: 0;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.collapse:hover .muted {
+  max-height: unset;
+  opacity: 1;
+  margin-bottom: 18px;
+}
+
+.card img {
+  width: 100%;
+}
