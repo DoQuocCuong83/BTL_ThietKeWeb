@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <iframe src="layout/header.html" class="header-iframe"></iframe>
+      <div id="header-container"></div>
       <div class="carousel" aria-hidden="false">
         <div class="carousel-track">
           <div class="carousel-slide">
@@ -27,28 +27,14 @@
         </div>
       </div>
       <section class="hero">
-        <div class="left">
-          <h1>Chào mừng đến với Website bài tập lớn</h1>
-          <p>
-            Website này được xây dựng bằng <b>HTML</b> và <b>CSS</b>, hai ngôn
-            ngữ nền tảng của web.
-          </p>
-          <p style="margin-top: 12px">
-            <a class="btn" href="products.html">Xem sản phẩm</a>
-          </p>
-        </div>
-        <div class="right">
-          <div class="card" style="width: 260px">
-            <h3 style="margin: 0 0 8px">Thành viên nhóm</h3>
-            <p style="margin: 0; color: var(--muted)">
-              Dương Thế Mạnh
-              <br />
-              Đỗ Quốc Cường
-              <br />
-              Chị Hằng
-            </p>
-          </div>
-        </div>
+        <h1>Chào mừng đến với Website bài tập lớn</h1>
+        <p>
+          Website này được xây dựng bằng <b>HTML</b> và <b>CSS</b>, hai ngôn ngữ
+          nền tảng của web.
+        </p>
+        <p style="margin-top: 12px">
+          <a class="btn" href="products.html">Xem sản phẩm</a>
+        </p>
       </section>
       <section style="margin-top: 18px">
         <h2>Danh mục nổi bật</h2>
@@ -86,7 +72,6 @@
             </div>
           </div>
         </div>
-
         <div class="featured-category">
           <div class="featured-title">Điện thoại</div>
           <div class="product-row">
@@ -121,7 +106,6 @@
             </div>
           </div>
         </div>
-
         <div class="featured-category">
           <div class="featured-title">Tai nghe</div>
           <div class="product-row">
@@ -156,7 +140,6 @@
             </div>
           </div>
         </div>
-
         <div class="featured-category">
           <div class="featured-title">Phụ Kiện</div>
           <div class="product-row">
@@ -192,8 +175,8 @@
           </div>
         </div>
       </section>
-
-      <iframe src="layout/footer.html" class="footer-iframe"></iframe>
+      <div id="footer-container"></div>
     </div>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -142,8 +142,6 @@
   background: var(--card);
   padding: 28px;
   border-radius: 12px;
-  display: flex;
-  gap: 24px;
 }
 
 .hero h1 {

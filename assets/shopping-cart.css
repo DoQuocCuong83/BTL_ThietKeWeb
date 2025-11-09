@@ -1,4 +1,10 @@
 /* shopping-cart.css - minimal */
+
+.cart-container {
+  width: 100%;
+  overflow: auto;
+}
+
 .total {
   font-weight: 700;
   margin-top: 12px;

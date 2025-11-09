@@ -12,14 +12,14 @@
 
 <body>
   <div class="container">
-    <iframe src="layout/header.html" class="header-iframe"></iframe>
+    <div id="header-container"></div>
     <section class="card">
       <h1>Chi tiết sản phẩm</h1>
-      <div style="display: flex; gap: 18px; flex-wrap: wrap">
-        <div style="flex: 1; min-width: 240px">
+      <div class="info-container">
+        <div class="info">
           <video src="assets/images/prd-detail.mp4" autoplay loop muted>
         </div>
-        <div style="flex: 1; min-width: 240px">
+        <div class="info">
           <h2>ASUS Zenbook 14 UM3406KA</h2>
           <p class="muted">Giá: <b>1.000.000₫</b></p>
           <p>
@@ -132,8 +132,8 @@
         </article>
       </div>
     </section>
-    <iframe src="layout/footer.html" class="footer-iframe"></iframe>
+    <div id="footer-container"></div>
   </div>
+  <script src="js/index.js"></script>
 </body>
-
 </html>
